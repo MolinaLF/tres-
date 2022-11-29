@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+  --padding-general: 0 4rem;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../imagenes/fondos/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main {
+  background-color: rgba(230, 34, 220, 0.212);
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.596);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-general);
+}
+
+.header__logo {
+
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.header__img {
+  height: 100px;
+  width: 4050px;
+
+
+}
+
+
+
+.header__title {
+
+  color: blueviolet;
+  display: flex;
+}
+
+#btn-menu,
+#btn-close {
+  visibility: hidden;
+}
+
+.nav {
+  background-color: aquamarine;
+  position: relative;
+  padding: var(--padding-general);
+}
+
+.nav__menu {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item {
+  position: relative;
+}
+
+.nav__item a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+#img-banner {
+
+  margin: 20px auto;
+  width: 90%;
+  height: 50vh;
+  border-radius: 20px;
+
+  border: 2px solid rgb(38, 146, 189);
+
+
+}
+
+button {
+  cursor: pointer;
+}
+
+
+/*Cartas*/
+
+
+#productos {
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+
+}
+
+#productos .container {
+  padding: 150px 12px;
+
+}
+
+#productos .container {
+  padding: 10px;
+
+}
+
+#productos h2 {
+  margin-top: 0;
+  font-size: 4.2em;
+}
+
+#productos .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 60px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto1.png");
+
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto2.png");
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto3.png");
+
+}
+
+#pie_pagina {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#pie_pagina h3 {
+  font-size: 1.8em;
+  color: blueviolet;
+
+}
+
+#pie_pagina .interes li a {
+  color: black
+}
+
+#pie_pagina .buscadas li a {
+  color: black
+}
+
+
+
+
+.contenedor-pasteles {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 15px;
+
+}
+
+
+
+#img-pasteles1 {
+  width: 220px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+#img-precioPastel1 {
+  width: 220px;
+  border-radius: 50%;
+}
+
+#img-pasteles2 {
+  width: 220px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+#img-precioPastel2 {
+  width: 220px;
+  border-radius: 50%;
+}
+
+#img-pasteles3 {
+  width: 220px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+#img-precioPastel3 {
+  width: 220px;
+  border-radius: 50%;
+}
+
+#img-pasteles4 {
+  width: 220px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+#img-precioPastel4 {
+  width: 220px;
+  border-radius: 50%;
+}
+
+#img-pasteles5 {
+  width: 220px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+#img-precioPastel5 {
+  width: 220px;
+  border-radius: 50%;
+}
+
+.marca img {
+  width: 220px;
+  height: 225px;
+}
+
+.buscadas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.libro {
+
+  margin: 20px auto;
+  height: 200px;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.marca li {
+  margin: 23px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  top: calc(100%);
+  padding: var(--padding-general);
+  background-color: rgb(80, 80, 70);
+
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+
+}
+
+.footer__menu a {
+  color: #fff;
+}
+
+.caja_icono {
+
+  width: 50%;
+  text-align: center;
+}
+
+.icono {
+  margin: auto;
+  width: 50%;
+}
+
+
+.caja_redes {
+  text-align: center;
+  width: 50%;
+
+}
+
+.redes {
+  width: 50%;
+
+  margin: auto;
+}
+
+.img_footer {
+  width: 100%;
+  display: flex;
+
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 0 1.4rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .header__title {
+    color: rgb(0, 0, 0);
+  }
+
+  .header__img {
+    display: none;
+  }
+
+  #btn-menu {
+    visibility: visible;
+    font-size: 1.5rem;
+
+  }
+
+  #btn-close {
+    visibility: visible;
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    padding: 22px 22px 22px 1.5rem;
+    color: #fff;
+    top: 50%;
+    right: 0;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .nav__menu {
+    display: block;
+    height: max-content;
+    position: fixed;
+    z-index: 1000;
+    background: rgb(0, 35, 100);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    transition: all 600ms;
+    overflow: scroll;
+  }
+
+  .nav__item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .mv-left {
+    left: 0;
+  }
+
+  .ov-hidden {
+    overflow: hidden;
+  }
+
+
+
+
+
+  #productos {
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  #productos .container {
+    padding: 150px 12px;
+  }
+
+  #productos h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
+
+
+
+
+
+  #productos .container {
+    padding: 10px;
+  }
+
+  #productos h2 {
+    margin-top: 0;
+    font-size: 4.2em;
+  }
+
+  #productos p {
+    display: none;
+  }
+
+  #productos .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 60px;
+    margin: 30px;
+    border-radius: 15px;
+  }
+
+
+
+  .carta:first-child {
+
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto1.png");
+
+  }
+
+  .carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto2.png");
+  }
+
+  .carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("/imagenes/banners/producto3.png");
+
+  }
+
+
+
+
+
+  .footer {
+    font-weight: bold;
+    background-color: rgb(80, 80, 70);
+  }
+
+  .footer__menu {
+
+    height: max-content;
+    flex-direction: column;
+  }
+
+  .footer__item {
+    width: 100%;
+  }
+
+  .footer__item a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+  }
+}

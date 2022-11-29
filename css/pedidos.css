@@ -1,0 +1,104 @@
+.sub__titulo {
+    background-color: rgba(0, 0, 0, 0.89);
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub__titulo h2 {
+    color: blueviolet;
+}
+
+.pasos {
+    background-color: rgba(137, 43, 226, 0.199);
+    padding: 20px;
+    display: flex;
+    margin: 15px 15PX;
+    border: 2px solid black;
+}
+
+.caja-pasos {
+    display: flex;
+
+}
+
+.pasos p {
+    font-weight: bold;
+
+}
+
+.camara {
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.img-pasos {
+    width: 150px;
+}
+
+.pastel {
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.carrito {
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+
+.boton {
+
+    background-color: rgba(85, 209, 209, 0.13);
+    color: black;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 120px;
+    height: 55px;
+    border-radius: 10px;
+
+}
+
+.caja {
+
+    margin: 5px 15PX;
+    border: 2px solid black;
+    height: 250px;
+
+}
+
+
+.titulo-perso {
+
+
+    text-align: center;
+    margin: 5px 15px;
+}
+
+
+.caja-perso {
+    margin: 5px 15PX;
+
+    display: flex;
+
+}
+
+
+.caja-perso img {
+    border-radius: 24px;
+    width: 35vh;
+    margin: 5px auto;
+
+}
